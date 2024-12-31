@@ -3,16 +3,16 @@ package com.att.training.refactoring;
 import lombok.extern.slf4j.Slf4j;
 
 /*
- Why should we care about naming?
- * Improves Readability: Clear and descriptive names make the code easier to understand.
- * Enhances Maintainability: Code is easier to maintain and modify when the purpose of variables and methods is clear.
- * Reduces Cognitive Load: Developers can grasp the functionality without having to decipher ambiguous or misleading names.
+Why should we care about naming?
+* Improves Readability: Clear and descriptive names make the code easier to understand.
+* Enhances Maintainability: Code is easier to maintain and modify when the purpose of variables and methods is clear.
+* Reduces Cognitive Load: Developers can grasp the functionality without having to decipher ambiguous or misleading names.
 
- Best Practices for Naming
- * Be Descriptive: Names should explain the purpose and usage.
- * Use Pronounceable Names: If you can’t pronounce it, you can’t discuss it without sounding awkward.
- * Avoid Encodings: Don’t use prefixes or suffixes that add no meaningful information.
- * Use Searchable Names: Ensure that the names are searchable and not generic.
+Best Practices for Naming
+* Be Descriptive: Names should explain the purpose and usage.
+* Use Pronounceable Names: If you can’t pronounce it, you can’t discuss it without sounding awkward.
+* Avoid Encodings: Don’t use prefixes or suffixes that add no meaningful information.
+* Use Searchable Names: Ensure that the names are searchable and not generic.
 
 Naming Conventions
 * Class/Interface Names: Should be nouns and written in PascalCase.
