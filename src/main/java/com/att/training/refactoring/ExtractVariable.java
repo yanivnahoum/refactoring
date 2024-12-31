@@ -8,6 +8,8 @@ When to Use Extract Variable
 * Improving Readability: When the intention of the code is not immediately clear, extracting variables can make the purpose of each part of the expression more obvious.
 */
 
+record Person(String name, int age) {}
+
 class BeforeExtractVariable {
     public double calculateFinalPrice(double price, int quantity, double discount) {
         return price * quantity - discount + (price * quantity - discount) * 0.18; // 18% VAT
@@ -21,6 +23,7 @@ class BeforeExtractVariable {
 class AfterExtractVariable {
     private static final double VAT = 0.18;
 
+    // Extract variable & constant
     public double calculateFinalPrice(double price, int quantity, double discount) {
         double totalPrice = price * quantity;
         double discountedPrice = totalPrice - discount;
