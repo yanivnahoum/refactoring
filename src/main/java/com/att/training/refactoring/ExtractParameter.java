@@ -2,6 +2,11 @@ package com.att.training.refactoring;
 
 import java.util.List;
 
+/*
+When should we extract parameters?
+* Enhancing Reusability: When extracting parameters can help reuse the method in different contexts
+with different values.
+ */
 class BeforeExtractParameter {
     public boolean isAnyoneOverAge18(List<Person> persons) {
         return persons.stream()

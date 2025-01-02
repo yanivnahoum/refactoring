@@ -1,7 +1,7 @@
 package com.att.training.refactoring;
 
 /*
-When to Use Extract Variable
+When should we extract variables?
 * Complex Expressions: When you have a long or complicated expression, extracting parts of it into variables can make the code clearer.
 * Repeated Expressions: If the same expression is used multiple times, extracting it into a variable can reduce redundancy.
 * Magic Numbers/Strings: When you have hard-coded values (magic numbers or strings), extracting them into meaningful variables can make the code self-explanatory.

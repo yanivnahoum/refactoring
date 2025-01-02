@@ -1,7 +1,7 @@
 package com.att.training.refactoring;
 
 /*
-When to Use Inline Variable
+When should we inline variables?
 * Single Use Variables: When a variable is assigned a value and then used only once,
 inlining the variable can reduce unnecessary complexity.
 * Redundant Variables: When a variable merely holds an intermediate result that doesn't need a separate name.
