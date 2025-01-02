@@ -2,6 +2,13 @@ package com.att.training.refactoring;
 
 import lombok.RequiredArgsConstructor;
 
+/*
+When should we extract fields?
+* Shared Values: When a value is used in multiple methods and should be stored in a single location
+to ensure consistency.
+* Repeated Calculations: When a calculation or value is repeatedly computed in multiple methods,
+extracting it to a field can enhance performance and readability.
+ */
 class BeforeExtractField {
 
     static class Order {
